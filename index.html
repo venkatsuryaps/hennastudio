@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- SECURITY -->
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
+  <!-- BASIC SECURITY HEADERS -->
+
+  <meta http-equiv="X-Content-Type-Options"
+        content="nosniff">
+
+  <meta http-equiv="X-Frame-Options"
+        content="DENY">
+
+  <meta http-equiv="Referrer-Policy"
+        content="strict-origin-when-cross-origin">
+
+  <!-- CONTENT SECURITY POLICY -->
+
+  <meta http-equiv="Content-Security-Policy"
+        content="
+        default-src 'self';
+        img-src 'self' data:;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src https://fonts.gstatic.com;
+        script-src 'self' 'unsafe-inline';
+        connect-src 'self';
+      ">
+  <link rel="icon"
+      type="image/png"
+      href="images/icon1.jpg">
+  <title>Royal Henna Studio</title>
+
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="logo">
+      Henna Studio
+    </div>
+
+    <nav class="navbar"
+         id="navbar">
+
+      <a href="#home">Home</a>
+
+      <a href="#about">About</a>
+
+      <a href="#services">Services</a>
+
+      <a href="#gallery">Gallery</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+    <!-- THREE DOTS -->
+
+    <div class="menu-toggle"
+         id="menu-toggle">
+
+      ⋮
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero"
+           id="home">
+
+    <div class="hero-content">
+
+      <h1>
+        Beautiful Mehndi Designs
+      </h1>
+
+      <p>
+        Bridal Mehndi, Arabic Mehndi,
+        Traditional Designs & Custom Art
+      </p>
+
+      <a href="#contact"
+         class="btn">
+
+        Book Appointment
+
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <div class="section-title">
+      <h2>About Us</h2>
+    </div>
+
+    <div class="about">
+
+      <img src="images/HennaStudio.jfif"
+           alt="Mehndi Artist"
+           loading="lazy">
+
+      <div>
+
+        <h3>
+          Professional Mehndi Artist
+        </h3>
+
+        <p>
+          We specialize in bridal mehndi,
+          engagement ceremonies,
+          festive designs,
+          Arabic patterns,
+          and custom henna art.
+        </p>
+
+        <br>
+
+        <p>
+          We provide home service booking
+          for weddings,
+          parties,
+          and special events.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section id="services">
+
+    <div class="section-title">
+      <h2>Our Services</h2>
+    </div>
+
+    <div class="services">
+
+      <div class="service-card">
+
+        <h3>Bridal Mehndi</h3>
+
+        <p>
+          Premium bridal henna designs
+          for weddings and receptions.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>Arabic Mehndi</h3>
+
+        <p>
+          Modern Arabic style floral
+          and elegant patterns.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>Festival Mehndi</h3>
+
+        <p>
+          Special mehndi designs for
+          Diwali and celebrations.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>Custom Designs</h3>
+
+        <p>
+          Personalized mehndi artwork
+          based on your preferences.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALLERY -->
+
+  <section id="gallery">
+
+    <div class="section-title">
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery">
+
+      <img src="images/G1.jpeg"
+           alt="Bridal Mehndi"
+           loading="lazy">
+
+      <img src="images/G2.jfif"
+           alt="Arabic Mehndi"
+           loading="lazy">
+
+      <img src="images/G3.jfif"
+           alt="Festival Mehndi"
+           loading="lazy">
+
+      <img src="images/G4.jfif"
+           alt="Traditional Mehndi"
+           loading="lazy">
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+
+    <div class="contact">
+
+      <h2>
+        Contact Us
+      </h2>
+
+      <p>
+        📍 Chennai, Tamil Nadu
+      </p>
+
+      <p>
+        📞 +91 9700927332
+      </p>
+
+      <p>
+        📧 mehndi@gmail.com
+      </p>
+
+      <br>
+
+      <a
+        href="https://wa.me/919700927332?text=Hi%20I%20want%20to%20book%20mehndi"
+        class="btn"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        WhatsApp Booking
+
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 Henna Studio.
+      All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
